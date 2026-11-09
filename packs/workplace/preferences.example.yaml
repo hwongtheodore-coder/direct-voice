@@ -1,0 +1,11 @@
+# 将本文件作为文字上下文交给模型；它不会自动改变应用设置。
+language: zh-CN
+tone: warm_direct # 可选 warm_direct / neutral / firm
+detail: concise # 可选 concise / balanced / detailed
+output: finished_text # 可选 finished_text / text_and_rationale
+advice: when_material # 仅在对目标有实际帮助时主动建议
+audience: colleagues
+preserve_commitments: true
+# tone=firm 表示明确条件，不表示攻击或训诫。
+# 偏好不能授权发送消息、改变事实或作出未获授权的承诺。
+
